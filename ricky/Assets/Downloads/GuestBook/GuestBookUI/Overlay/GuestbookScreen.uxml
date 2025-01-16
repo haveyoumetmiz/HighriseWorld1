@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="UnityEngine.UIElements"
+    xmlns:hr="Highrise.UI"
+    xmlns:editor="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd"
+>
+
+  <hr:UILuaView class="guestbook-screen">
+    <VisualElement class="guestbook-container">
+      <VisualElement class="header">
+        <Label class="title" text="Guestbook" />
+      </VisualElement>
+
+      <VisualElement class="instructions">
+        <hr:UIBlur class="overlay" />
+        <hr:UILabel class="text" name="_instructions"/>
+      </VisualElement>
+
+      <VisualElement class="buttons-wrapper">
+        <VisualElement class="buttons">
+          <VisualElement class="sign-button" name="_SignButton">
+            <Label class="text" text="Sign" />
+          </VisualElement>
+          <VisualElement class="cancel-button" name="_CancelButton">
+            <Label class="text" text="Cancel" />
+          </VisualElement>
+        </VisualElement>
+      </VisualElement>
+    </VisualElement>
+
+  </hr:UILuaView>
+
+</UXML>

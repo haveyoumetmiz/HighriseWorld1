@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="UnityEngine.UIElements"
+    xmlns:hr="Highrise.UI"
+    xmlns:editor="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd"
+>
+
+  <hr:UILuaView class="guest-book-list">
+    <VisualElement class="container">
+      <VisualElement class="header">
+        <hr:UILabel class="title" text="Guest Book" name="_Title" />
+      </VisualElement>
+
+      <VisualElement class="list">
+        <hr:UIBlur class="overlay" />
+        <hr:UIScrollView class="scroll-view" name="_ScrollView">
+        </hr:UIScrollView>
+      </VisualElement>
+
+      <VisualElement class="close-button" name="_CloseButton">
+        <hr:UILabel class="text" text="Close" name="_CloseLabel" />
+      </VisualElement>
+
+
+    </VisualElement>
+  </hr:UILuaView>
+
+</UXML>

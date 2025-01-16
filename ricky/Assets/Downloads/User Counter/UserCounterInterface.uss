@@ -1,0 +1,13 @@
+.user-counter-interface {
+    top: 1.5%;
+    left: 10px;
+    padding: 5px;
+}
+
+.user-counter-interface .user-counter-text {
+    font-size: 20px;
+    color: var(--color-fishbase-bonito);
+    -unity-font-style: bold;
+    -unity-text-outline: 1px rgba(0, 0, 0, 0.2);
+    -unity-font-definition: var(--font-bold);
+}

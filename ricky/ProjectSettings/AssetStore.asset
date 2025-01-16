@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 53
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 258248712, guid: a215bd465061e3c4abe0b86c7c8c3d14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _assetMappings:
+  - Guid: 0041201ed70af25478c9a314b2b0f2fd
+    StoreId: 6698764af9ec0ff751a68d21
+    Name: GuestBook
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/55bb64735531104341039ca8/6698764af9ec0ff751a68d21/190c38e3820_0.jpg
+  - Guid: 54094f2e346fee84e8cac86fd0fdd7bd
+    StoreId: 669853f203bb6e8392a2267e
+    Name: User Counter
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/5f85e9652355c26b53330ada/669853f203bb6e8392a2267e/190c37397b8_0.jpg
